@@ -74,3 +74,6 @@ alias wgetmp3='wget -r -l1 -np -A mp3'
 alias whichpkg='dpkg -S $1'
 alias wiko='~/bin/Con2WikoTer.sh'
 alias dbox='echo "${CONTAINER_ID}"'
+# feh must be installed
+alias Display='feh -d -F -S filename .'
+alias SShow='feh -d -F -S filename -D 2'
